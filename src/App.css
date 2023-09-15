@@ -13,7 +13,7 @@
   height: max-content;
   /* align-items: center;
   text-align: center; */
-  width: 100vh;
+  
 }
 .btn-1{
   border-radius: 50px;
@@ -22,7 +22,9 @@
   border:none;
   padding-left: 25px;
   padding-right: 25px;
-  
+  width: 300px;
+  height: 100px;
+  font-size: 23px;
 }
 .logo-div,.page5-logo{
   display: flex;
@@ -52,8 +54,7 @@
   top: 0;
   left: 0;
   border: 1px solid #000000;
-  width: 515px;
-  height: 748px;
+  height: 820px;
   }
 .img-QR{
   width: 150px;
@@ -70,15 +71,16 @@
 }
 .content-div h2{
   font-weight: bold;
-  font-size: 40px;
+  font-size: 33px;
 }
 .border-div{
   border: 2px solid #df333d;
-  width: 520px;
+  width: 560px;
   height: max-content;
   align-items: center;
   margin-top: 50px;
   padding: 20px 20px;
+  margin-top: 50px;
 }
 .border-div p{
   color: white;
@@ -108,24 +110,61 @@
 }
 .btn-3{
   border-radius: 40px;
-  width: 400px;
+  width: 350px;
   height: 70px;
   font-weight: bold;
   background-color: #690f31;
   border: 1px solid white;
   margin-bottom: 80px;
-  font-size: 30px;
+  font-size: 28px;
 }
-.ply-btn{
-  /* background: #fff;
-    opacity: .4; */
+/* .ply-btn{
+  background: #fff;
+    opacity: .4;
     filter: blur(8px);
-}
+} */
 .page-6{
   margin-left: 50px;
   /* backdrop-filter: blur; */
 }
-
+.card-1{
+  border:transparent;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.carosel-div{
+  width: 540px;
+  height: 300px;
+  border-radius: 20px;
+}
+.page5-logo {
+  border-top: 15px solid #b997a0;
+  border-bottom: 15px solid #b997a0;
+  
+}
+.page-6 li{
+  font-size: 20px;
+}
+.page-5 h1{
+  font-size: 53px;
+  font-family:'Gotham';
+}
+.img2{
+  position: relative;
+}
+.ply-btn{
+  /* top: 50%; */
+  left: 50%;
+  position: absolute;
+  margin-top: 150px;
+  opacity: .4;
+  color: white;
+}
+.bg-div{
+  background-color: #000000;
+  border: black;
+}
 
 
 
